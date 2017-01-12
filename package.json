@@ -1,0 +1,41 @@
+{
+  "name": "obj-sort",
+  "version": "0.0.0",
+  "description": "Order object by ascending or descending",
+  "license": "MIT",
+  "repository": "iguntur/obj-sort",
+  "author": {
+    "name": "Guntur Poetra",
+    "email": "poetra.guntur@gmail.com",
+    "url": "http://iguntur.starmediateknik.com"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "sorted",
+    "sort",
+    "order",
+    "object",
+    "object-sort",
+    "object-order",
+    "asc",
+    "desc",
+    "ascending",
+    "descending"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "xo": "^0.16.0"
+  },
+  "xo": {
+    "esnext": true
+  }
+}
